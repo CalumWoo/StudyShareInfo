@@ -1,16 +1,106 @@
 body {
-    background-color: #cf0000;
+  /* Main Color of the page */
+  background-color: #ffffff  ;
+
+  margin: 0;
   }
   
-  header {
-    background-color: #333;
-    color: white;
-    text-align: center;
+header {
+  background-color: #1e3a8a ;
+  color: #ffffff ;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    align-items: center;
+    background-color: #1e293b;
+    padding: 12px 24px;
+    position: sticky;
   }
   
-  section {
-    background-color: white;
-    margin: 20px 0;
-    border-radius: 8px;
+  
+  .nav-links {
+  display: flex;
+  gap: 30px; /* space between links */
+  padding: 0;
+}
+
+
+  .nav-links a {
+    color: #60a5fa ;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
   }
   
+  .nav-links a:hover {
+    color: #64748b;
+    /* 10% larger than original */
+    transform: scale(1.1);
+  }
+
+.Website {
+  padding-left: 20px;
+
+  h1 {
+    color: #111827;
+  }
+
+  p {
+    color: #111827;
+  }
+}
+
+/*.ProblemMain {
+  padding-left: 20px;
+  color: #111827;
+}
+
+.FeatureMain {
+  padding-left: 20px;
+  color: #111827;
+}
+
+.QuestionnaireMain {
+  padding-left: 20px;
+  color: #111827;
+  text-decoration: none;
+}
+*/
+.box {
+  background-color: #68b4e7;
+  border: 5px solid #bae6fd;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;       
+  max-width: 700px;  
+  transition: transform 1s ease;
+}
+
+
+.QuestionnaireMain a {
+  text-decoration: none; 
+  color: #3b82f6 ;        
+  border:2px solid #3b82f6; /*  border */
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.QuestionnaireMain a:visited {
+  color: #3b82f6;        /* colour link shows after visit */
+}
+
+.QuestionnaireMain a:hover {
+  color: #2563eb ;        /* mouse hover colour */
+}
